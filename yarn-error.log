@@ -1,0 +1,59 @@
+Arguments: 
+  C:\laragon\bin\nodejs\node-v14\node.exe C:\Users\idris\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add cors bordy-parser express sqlite3
+
+PATH: 
+  C:\Users\idris\AppData\Local\Yarn\config\global\node_modules\.bin;C:\Users\idris\AppData\Roaming\npm;C:\Users\idris\AppData\Roaming\Composer\vendor\bin;;C:\laragon\bin\laragon\utils;C:\laragon\bin\mysql\mysql-5.7.33-winx64\bin;C:\laragon\bin\php\php7.3.12;C:\laragon\bin\composer;C:\laragon\bin\apache\httpd-2.4.47-win64-VS16\bin;C:\laragon\bin\redis\redis-x64-3.2.100;C:\laragon\bin\nodejs\node-v14;C:\laragon\bin\nginx\nginx-1.19.10;C:\laragon\bin\notepad++;C:\laragon\bin\telnet;C:\laragon\bin\ngrok;C:\laragon\bin\git\bin;C:\laragon\bin\git\cmd;C:\laragon\bin\git\usr\bin;C:\laragon\bin\git\mingw64\bin;C:\laragon\bin;C:\laragon\usr\bin;C:\laragon\bin\cmder\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\laragon\bin\php\php-7.4.19-Win32-vc15-x64;C:\composer;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files (x86)\dotnet\;C:\laragon\bin;C:\laragon\bin\apache\httpd-2.4.47-win64-VS16\bin;C:\laragon\bin\composer;C:\laragon\bin\git\bin;C:\laragon\bin\git\cmd;C:\laragon\bin\git\mingw64\bin;C:\laragon\bin\git\usr\bin;C:\laragon\bin\laragon\utils;C:\laragon\bin\mysql\mysql-5.7.33-winx64\bin;C:\laragon\bin\nginx\nginx-1.19.10;C:\laragon\bin\ngrok;C:\laragon\bin\nodejs\node-v14;C:\laragon\bin\notepad++;C:\laragon\bin\php\php7.3.12;C:\laragon\bin\redis\redis-x64-3.2.100;C:\laragon\bin\telnet;C:\laragon\usr\bin;C:\Users\idris\AppData\Local\Yarn\config\global\node_modules\.bin;C:\Users\idris\AppData\Roaming\Composer\vendor\bin;C:\Users\idris\AppData\Roaming\npm;C:\Users\idris\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\idris\AppData\Local\Programs\Python\Python39\;C:\Users\idris\AppData\Local\Microsoft\WindowsApps;C:\Users\idris\AppData\Local\Programs\Microsoft VS Code\bin;D:\src\flutter\bin;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2021.2.2\bin;C:\Users\idris\AppData\Local\Programs\Python\Python39\Lib\site-packages\PySide2;C:\SFML-2.5.1\bin;C:\Program Files\WinRAR;C:\Program Files\ffmpeg-2022-02-14-git-59c647bcf3-essentials_build\bin;;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\share\vim\vim74;C:\laragon\bin\cmder\;
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  14.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/bordy-parser: Not found
+      at Request.params.callback [as _callback] (C:\Users\idris\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:67029:18)
+      at Request.self.callback (C:\Users\idris\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (C:\Users\idris\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (C:\Users\idris\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (internal/streams/readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "sqlite-learn",
+    "version": "1.0.0",
+    "description": "learn to use sqlite3 on nodejs",
+    "main": "server.js",
+    "scripts": {
+      "test": "jest"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/IDRISSHACKER/node-sqlite.git"
+    },
+    "keywords": [
+      "nodejs",
+      "js",
+      "sqlite3"
+    ],
+    "author": "IDRISSHACKER",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/IDRISSHACKER/node-sqlite/issues"
+    },
+    "homepage": "https://github.com/IDRISSHACKER/node-sqlite#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
