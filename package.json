@@ -1,0 +1,24 @@
+{
+  "name": "sqlite-learn",
+  "version": "1.0.0",
+  "description": "learn to use sqlite3 on nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IDRISSHACKER/node-sqlite.git"
+  },
+  "keywords": [
+    "nodejs",
+    "js",
+    "sqlite3"
+  ],
+  "author": "IDRISSHACKER",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IDRISSHACKER/node-sqlite/issues"
+  },
+  "homepage": "https://github.com/IDRISSHACKER/node-sqlite#readme"
+}
