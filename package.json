@@ -4,7 +4,8 @@
   "description": "learn to use sqlite3 on nodejs",
   "main": "server.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +27,9 @@
     "cors": "^2.8.5",
     "express": "^4.18.0",
     "sqlite3": "^5.0.6"
+  },
+  "devDependencies": {
+    "jest": "^28.0.2",
+    "nodemon": "^2.0.15"
   }
 }
